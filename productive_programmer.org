@@ -1,0 +1,56 @@
+#+TITLE: プロダクティブ・プログラマ
+* Table of Contents                                                   :TOC_2:
+- [[#第1章-はじめに][第1章 はじめに]]
+- [[#第i部-技法編][第I部 技法編]]
+  - [[#第2章-加速---acceleration][第2章 加速---Acceleration]]
+  - [[#第3章-集中---focus][第3章 集中---Focus]]
+  - [[#第4章-自働化---automation][第4章 自働化---Automation]]
+  - [[#第5章-正準化---canonicality][第5章 正準化---Canonicality]]
+- [[#第ii部-実践編][第II部 実践編]]
+  - [[#第6章-テスト駆動設計---test-driven-design][第6章 テスト駆動設計---Test-Driven Design]]
+  - [[#第7章-静的解析---static-analysis][第7章 静的解析---Static Analysis]]
+  - [[#第8章-オブジェクトを良き市民に---good-citizenship][第8章 オブジェクトを「良き市民」に---Good Citizenship]]
+  - [[#第9章-yagni][第9章 YAGNI]]
+  - [[#第10章-古代の哲学者の教え][第10章 古代の哲学者の教え]]
+  - [[#第11章-権威を疑う][第11章 権威を疑う]]
+  - [[#第12章-メタプログラミング][第12章 メタプログラミング]]
+  - [[#第13章-composed-methodパターンとslap][第13章 Composed MethodパターンとSLAP]]
+  - [[#第14章-多言語プログラミング---polyglot-programming][第14章 多言語プログラミング---Polyglot Programming]]
+  - [[#第15章-理想のツールを探す---find-the-perfect-tools][第15章 理想のツールを探す---Find the Perfect Tools]]
+  - [[#第16章-まとめ-対話の継続][第16章 まとめ: 対話の継続]]
+
+* 第1章 はじめに
+
+* 第I部 技法編
+
+** 第2章 加速---Acceleration
+
+** 第3章 集中---Focus
+
+** 第4章 自働化---Automation
+
+** 第5章 正準化---Canonicality
+
+* 第II部 実践編
+
+** 第6章 テスト駆動設計---Test-Driven Design
+
+** 第7章 静的解析---Static Analysis
+
+** 第8章 オブジェクトを「良き市民」に---Good Citizenship
+
+** 第9章 YAGNI
+
+** 第10章 古代の哲学者の教え
+
+** 第11章 権威を疑う
+
+** 第12章 メタプログラミング
+
+** 第13章 Composed MethodパターンとSLAP
+
+** 第14章 多言語プログラミング---Polyglot Programming
+
+** 第15章 理想のツールを探す---Find the Perfect Tools
+
+** 第16章 まとめ: 対話の継続
