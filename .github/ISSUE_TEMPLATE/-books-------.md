@@ -1,0 +1,10 @@
+---
+name: ":books:閉架書庫行き"
+about: タイトル（著者）
+title: ''
+labels: ''
+assignees: Rindrics
+
+---
+
+
