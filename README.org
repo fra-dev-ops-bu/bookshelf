@@ -14,7 +14,7 @@ DevOps部では、本を三つに分類します:
 ** 推薦図書
 推薦図書のリストは、きちんとメンテナンスしてゆけば、それ自体がコミュニティの財産となります。
 「推薦図書」は以下のように運用しましょう:
-1. Issue として登録
+1. [[https://github.com/fra-dev-ops-bu/bookshelf/issues/new?assignees=&labels=Join+Me&template=----.md&title=《3~》Book+Title+%28John+Smith%29][Issue 登録開始]]
 2. Description に推薦理由と輪読をはじめるための最低人数を書く
 3. 自身を Assign し、輪読をはじめたい意思を表明する
 4. 他のメンバーは、興味があれば各自を Assign する
@@ -25,7 +25,7 @@ DevOps部では、本を三つに分類します:
 これも、推薦図書と重みの違いがわかるようにしたうえで共有するとよいでしょう。
 読んだ本という分母が大きいほど、分子---推薦図書---の信頼性が高まるからです。
 「閉架書庫行き」は以下のように運用しましょう:
-1. [Issue として登録](https://github.com/fra-dev-ops-bu/bookshelf/issues/new?assignees=&labels=Join+Me&template=----.md&title=《3~》Book+Title+%28John+Smith%29)
+1. [[https://github.com/fra-dev-ops-bu/bookshelf/issues/new?assignees=&labels=&template=------.md&title=][Issue 登録開始]]
 2. 概要を書く
 3. 推薦には至らなかった理由を書いて Close
 もし自分が推薦したい書籍が既に「閉架書庫行き」になっていたときには、Issue を再 Openし、
