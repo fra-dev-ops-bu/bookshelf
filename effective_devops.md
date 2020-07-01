@@ -31,7 +31,7 @@ title: Effective DevOps---4本柱による持続可能な組織文化の育て�
 ### 2.2 devopsの方程式
 
 ```
-"自分のことを新しいと思っている運動には、古くないすべてのものを指示しようとする危険性がある
+"自分のことを新しいと思っている運動には、古くないすべてのものを支持しようとする危険性がある
  (リー・ロイ・ビーチ他「Natuiralistic Decision Making and Related Research Lines」) (p.13)"
 ```
 
