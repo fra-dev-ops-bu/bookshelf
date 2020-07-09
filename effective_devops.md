@@ -1,5 +1,5 @@
 ---
-title: Effective DevOps---4本柱による持続可能な組織文化の育て。
+title: Effective DevOps---4本柱による持続可能な組織文化の育て方
 ---
 
 # 第I部 devops とはなにか
@@ -282,4 +282,3 @@ gantt
 # 第V部 スケーリング
 
 # 第VI部 devops 文化への架け橋
-
