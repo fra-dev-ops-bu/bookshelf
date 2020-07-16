@@ -326,16 +326,14 @@ gantt
 
 #### 4.1.1 ウォーターフォール
 滝の流れの様に、仕事のステージが終わったら、次のステージが開始するという開発手法。水研の資源評価などはこれにあたる。
-
-要求 <br>
-⬇ <br>
-設計 <br>
-⬇ <br>
-実装 <br>
-⬇ <br>
-テスト <br>
-⬇ <br>
-保守
+```mermaid
+graph TD
+要求 --> 設計
+設計 --> 実装
+実装 --> テスト
+テスト --> 保守
+```
+![waterfall.png](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbuimgeaxgiAtLT4g6Kit6KiIXG7oqK3oqIggLS0-IOWun-ijhVxu5a6f6KOFIC0tPiDjg4bjgrnjg4hcbuODhuOCueODiCAtLT4g5L-d5a6IIiwibWVybWFpZCI6eyJ0aGVtZSI6ImRlZmF1bHQifSwidXBkYXRlRWRpdG9yIjpmYWxzZX0)
 
 途中からの仕様変更が難い場合は時間を掛けて要求仕様をしっかり定義し、設計を正しく行うことで初めからミスを減らすという方法をとる。ミスを修正できる環境よりもそもそもミスをしない方法（そして修正するときは大変）に重きを置いた開発手法である。
 
@@ -359,16 +357,16 @@ gantt
 スクラムは、固定した短期間で仕事のサイクルを回す手法である。サイクルはスプリントと呼ばれ、１～４週間程度であり、その都度達成すべき目標や顧客のニーズ、問題点、ミスの確認などを行う。この手法では開発チームが変化 — プロジェクトの変化と顧客ニーズの変化 — にすばやく対応する能力を最大化することに重点を置いている。
 
 【スクラムの例】
+```mermaid
+graph TD
+スプリントプランニング --> 開発
+開発 --> スプリントレビュー
+スプリントレビュー --> スプリントレトロスペクティブ
+スプリントレトロスペクティブ --> スプリントプランニング
+```
+![scrum.png](https://mermaid.ink/img/eyJjb2RlIjoiZ3JhcGggVERcbkFb44K544OX44Oq44Oz44OI44OX44Op44Oz44OL44Oz44KwXSAtLT4gQlvplovnmbpdXG5CIC0tPiBDW-OCueODl-ODquODs-ODiOODrOODk-ODpeODvF1cbkMgLS0-IERb44Os44OI44Ot44K544Oa44Kv44OG44Kj44OWXVxuRCAtLT4gQSIsIm1lcm1haWQiOnsidGhlbWUiOiJkZWZhdWx0In0sInVwZGF0ZUVkaXRvciI6ZmFsc2V9)
 
-スプリントプランニング（スプリントで何を達成目標とするか）<br>
-↓ <br>
-開発（固定期間）<br>
-↓ <br>
-スプリントレビュー（成果と目標達成の確認）<br>
-↓ <br>
-スプリントレトロスペクティブ（スプリントの振り返りと問題点の議論）<br>
-↓ <br>
-次のスプリント<br>
+スプリントプランニングではスプリントの目標を定義し、固定した開発期間を決定する。スプリント期間終了時には、目標達成度を確認するスプリントレビューを行い、レトロスペクティブを行う。
 
 スプリント内では、デイリースクラムと呼ばれるミーティングがあり、
 - 昨日やること
